@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Jay\\Documents\\GitHub\\Connections\\DiscordLab.Connect\\DiscordLab.Connect.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Jay\\Documents\\GitHub\\Connections\\DiscordLab.Connect\\DiscordLab.Connect.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jay\\Documents\\GitHub\\Connections\\DiscordLab.Connect\\DiscordLab.Connect.csproj",
+        "projectName": "DiscordLab.Connect",
+        "projectPath": "C:\\Users\\Jay\\Documents\\GitHub\\Connections\\DiscordLab.Connect\\DiscordLab.Connect.csproj",
+        "packagesPath": "C:\\Users\\Jay\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jay\\Documents\\GitHub\\Connections\\DiscordLab.Connect\\obj\\",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "C:\\Users\\Jay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Costura.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-beta0000, )"
+            },
+            "Discord.Net.WebSocket": {
+              "target": "Package",
+              "version": "[3.15.3, )"
+            },
+            "ExMod.Exiled": {
+              "target": "Package",
+              "version": "[8.14.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.8.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
